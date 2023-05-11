@@ -1,0 +1,7 @@
+{loading ? (
+        <p>loading...</p>
+      ) : errMsg ? (
+        <p>
+          {errMsg.status} {errMsg.message}
+        </p>
+      ) : (
